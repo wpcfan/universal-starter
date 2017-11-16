@@ -4,11 +4,13 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { MyTestDirective } from './my-test.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    MyTestDirective
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
